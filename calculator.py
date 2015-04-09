@@ -40,6 +40,18 @@ def calculator():
     num1 = float(tokenized_user_input_str[1])
     num2 = float(tokenized_user_input_str[2])
 
+
+    # make if, elif, else statement and pull in defs from arithmetic_calc2.py
+    
+
+    while 
+        if operator_element == 'q':
+            print "It worked!"
+            break
+        else:
+            print "It broke :("
+
+
     print user_input_str
     print tokenized_user_input_str
     print operator_element
