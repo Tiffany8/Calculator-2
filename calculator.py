@@ -33,8 +33,19 @@ def calculator():
     # tokenize the user's input into a list of 3 elements
     tokenized_user_input_str = user_input_str.split(" ")
 
+    # separate first element on list and make it the operator value
+    operator_element = tokenized_user_input_str[0]
+
+    # convert remaining elements in list to floats
+    num1 = float(tokenized_user_input_str[1])
+    num2 = float(tokenized_user_input_str[2])
 
     print user_input_str
     print tokenized_user_input_str
-    
+    print operator_element
+    print num1
+    print type(num1)
+    print num2
+    print type(num2)
+
 calculator()
