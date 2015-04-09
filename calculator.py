@@ -25,7 +25,16 @@ from arithmetic_calc2 import *
 # repeat
 
 def calculator():
-    user_input_str = raw_input('> Please type in 1 operand and up to 2 numbers separated by spaces: ')
-    print user_input_str
+    """ This function will take the user's input, run a series of mathematical equations
+    based on the user's input and return the result of set equations. """
 
+    user_input_str = raw_input('> Please type in 1 operand and up to 2 numbers separated by spaces: ')
+
+    # tokenize the user's input into a list of 3 elements
+    tokenized_user_input_str = user_input_str.split(" ")
+
+
+    print user_input_str
+    print tokenized_user_input_str
+    
 calculator()
